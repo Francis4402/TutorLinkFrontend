@@ -33,7 +33,7 @@ const WhyTutorLink = () => {
             {
                 TCards.map((card, index) => {
                     return (
-                        <div key={index} className='flex flex-col gap-10 shadow-2xl rounded-2xl p-15'>
+                        <div key={index} className='flex flex-col gap-10 shadow-2xl rounded-2xl p-15 bg-gray-100'>
                             <div className='flex items-center gap-2'>
                                 <div className="sm:block hidden">
                                     {card.Icon}
