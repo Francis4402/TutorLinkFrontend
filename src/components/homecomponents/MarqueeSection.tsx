@@ -44,7 +44,7 @@ const MarqueeSection = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-10 overflow-hidden">
       <div className="w-full overflow-hidden relative">
-        <Marquee loop={0} speed={200} className="text-5xl font-bold px-10">
+        <Marquee loop={0} speed={200} className="text-5xl h-20 font-bold px-10">
           Manage your learning like a pro! * Connect with top-notch tutors instantly!...
         </Marquee>
       </div>

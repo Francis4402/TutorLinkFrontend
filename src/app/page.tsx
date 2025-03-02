@@ -1,5 +1,7 @@
 import Blogs from "@/components/homecomponents/Blogs";
 import ClassRoomImage from "@/components/homecomponents/ClassRoomImage";
+import ContactSection from "@/components/homecomponents/ContactSection";
+import FAQSection from "@/components/homecomponents/FAQSection";
 import HeroSection from "@/components/homecomponents/HeroSection";
 import MarqueeSection from "@/components/homecomponents/MarqueeSection";
 import PricingSection from "@/components/homecomponents/PricingSection";
@@ -19,13 +21,12 @@ export default function Home() {
       <div className="bg-[url('/classroomimage.jpg')] bg-center bg-cover bg-fixed w-full h-full">
         <ClassRoomImage/>
       </div>
-      <div className="container mx-auto md:px-0 px-5">
-        <Testimonial/>
-      </div>
+      <Testimonial/>
       <MarqueeSection />
-      <div className="container mx-auto md:px-0 px-5">
-        <Blogs/>
-      </div>
+
+      <Blogs/>
+      <FAQSection/>
+      <ContactSection/>
     </div>
   );
 }
