@@ -38,7 +38,7 @@ const Testimonial = () => {
   return (
     <div className='py-20 container mx-auto md:px-0 px-5'>
         <div className='bg-green-600 p-10 flex flex-col gap-10 justify-center items-center text-center rounded-4xl'>
-            <h1 className='text-6xl font-bold'>Find Your Perfect Tutor Today!</h1>
+            <h1 className='text-6xl font-bold text-white'>Find Your Perfect Tutor Today!</h1>
 
             <button className='bg-amber-400 px-10 py-4 rounded-full text-white text-2xl font-semibold'>Get Started</button>
         </div>

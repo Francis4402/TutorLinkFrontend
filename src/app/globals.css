@@ -9,6 +9,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
+body{
+  background-color: rgb(240, 240, 240);
+}
 
 :root {
   --background: oklch(1 0 0);

@@ -49,8 +49,8 @@ const MarqueeSection = () => {
         </Marquee>
       </div>
 
-      <div className="h-96 bg-blue-800 w-full">
-
+      <div className="bg-[url('/images/3.jpg')] bg-center bg-cover w-full h-96 justify-center items-center flex">
+            <h1 className="text-6xl font-semibold text-white">Get Best Guides for your needs</h1>
       </div>
 
       <Marquee loop={0} speed={100} pauseOnHover={true} className="flex overflow-hidden">
