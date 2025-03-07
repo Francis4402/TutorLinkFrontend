@@ -40,7 +40,7 @@ const Testimonial = () => {
         <div className='bg-green-600 p-10 flex flex-col gap-10 justify-center items-center text-center rounded-4xl'>
             <h1 className='text-6xl font-bold text-white'>Find Your Perfect Tutor Today!</h1>
 
-            <button className='bg-amber-400 px-10 py-4 rounded-full text-white text-2xl font-semibold'>Get Started</button>
+            <button className='bg-amber-400 hover:bg-amber-500 duration-200 cursor-pointer px-10 py-4 rounded-full text-white text-2xl font-semibold'>Get Started</button>
         </div>
 
         <div className='py-10 flex flex-col justify-center items-center'>

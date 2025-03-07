@@ -15,3 +15,9 @@ export const formSchema = z.object({
       message: "Message must be at least 10 characters.",
     }),
   })
+
+export const footerEmailSchema = z.object({
+  email: z.string().email({
+    message: "Please enter a valid email address.",
+  }),
+})

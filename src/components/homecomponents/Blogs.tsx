@@ -40,11 +40,11 @@ const Blogs = () => {
                     blogcards.map((data,index) => {
                         return (
                             <div key={index} className='flex flex-col gap-5 rounded-4xl'>
-                                <Image src={data.image} alt='i' width={2639} height={2153} className='rounded-2xl h-64 object-cover' />
+                                <Image src={data.image} alt='i' width={800} height={800} className='rounded-2xl h-64 object-cover' />
                                 <h1 className='text-4xl font-bold'>{data.title}</h1>
                                 <p className='text-2xl'>{data.date}</p>
                                 <p className='text-2xl'>Meet our fresh batch of tutors ready to rock your learning world! Check them out and book a session today!</p>
-                                <button className='bg-amber-400 w-fit px-10 py-3 rounded-full text-white text-2xl font-semibold'>Join</button>
+                                <button className='bg-amber-400 hover:bg-amber-500 cursor-pointer duration-200 w-fit px-10 py-3 rounded-full text-white text-2xl font-semibold'>Join</button>
                             </div>
                         )
                     })

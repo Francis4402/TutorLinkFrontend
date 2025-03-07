@@ -41,7 +41,7 @@ const PricingSection = () => {
 
                             <div className="px-8 py-8 w-full flex flex-col gap-10">
                                 <p className='text-2xl'>{card.description}</p>
-                                <button className="bg-amber-400 hover:bg-amber-500 duration-200 text-white py-4 text-2xl font-semibold rounded-full">
+                                <button className="bg-amber-400 hover:bg-amber-500 duration-200 cursor-pointer text-white py-4 text-2xl font-semibold rounded-full">
                                     Choose Plan
                                 </button>
                             </div>

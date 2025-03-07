@@ -29,7 +29,7 @@ const WhyTutorLink = () => {
     <div className='flex flex-col gap-25 py-10'>
         <h1 className='lg:text-8xl md:text-7xl text-5xl'>Why TutorLink?</h1>
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
             {
                 TCards.map((card, index) => {
                     return (
@@ -66,7 +66,7 @@ const WhyTutorLink = () => {
 
         <p className="text-2xl leading-10 max-w-2xl">Ready to take the plunge? Join TutorLink and connect with amazing tutors who can help you conquer your studies. Don&apos;t wait, the future is calling!</p>
 
-        <button className="w-fit px-10 py-5 bg-amber-400 rounded-full text-xl text-white font-semibold">Sign Up</button>
+        <button className="bg-amber-400 hover:bg-amber-500 duration-200 cursor-pointer px-10 py-4 rounded-full text-white text-2xl font-semibold w-fit">Sign Up</button>
 
         <div className="border border-gray-800 w-full"></div>
     </div>
